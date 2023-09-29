@@ -1,94 +1,76 @@
-Team RST Travelogue APP!
+![Travelogue Screenshot](https://github.com/scott198989/TravelogueNew/blob/main/Travelogue-Screenshot.png)
 
-Overview: 
+# Team RST Presents: Travelogue 🌍✈️
 
-The scope and purpose of this application is to target a specigic group of users that enjoy travel either domestically in the United States or Internationally.  The purpose of our app is to accomidate the traveling user by providing a means to log and track their adventures in travel and foster an enviornment that will help keep track of memories made and the joy of traveling.  We are absolutley thrilled to undertake this 'adventure' and know that Travelogue will be just as vital to you as your passport!
+## Table of Contents
+- [Overview](#overview)
+- [Live Links](#live-links)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Frontend](#frontend)
+- [Backend](#backend)
+- [Contributors](#contributors)
 
-live link frontend: https://travelogue-app.onrender.com/
-live link backend: https://travelogue-d6r2.onrender.com/
+## Overview
 
-Features:
+Travelogue is your new travel buddy! Designed for wanderlusters in the U.S. or globetrotters going international, our app helps you log, track, and relive your travel adventures. Your passport's best friend is here! 🌏🛂
 
-User will be able to create a account and manage experiences by entering data into a forum that logs their destination, when they arrived and departed, wether or not it was domestic travel, adding photos, and journal entries.  This will help catalogue the users trips to differnt places making keeping track and recalling memories so much easier.  
+---
 
-Dependencies:
+## Live Links 🔗
+- **Frontend**: [Travelogue Frontend](https://travelogue-app.onrender.com/)
+- **Backend**: [Travelogue Backend](https://travelogue-d6r2.onrender.com/)
 
-For the Front End (you will need to use yarn in your terminal to add dependencies), you can check your package.json file and ensure the proper dependencies have been installed:
+---
 
-1.  Add yarn
+## Features 🌟
+- **User Accounts**: Your personalized travel diary.
+- **Trip Logging**: Save all the trip details: destinations, arrival & departure, photos, and even journal entries.
+- **Domestic & International**: Categorize your travels easily.
+  
+---
 
- yarn install 
+## Dependencies 🛠
 
-2.  Add react-router
+### Frontend
 
- yarn add react-router
- 
- import { Routes, Route } from 'react-router-dom' and'
- import { BrowserRouter } from 'react-router-dom' on components pages
- in App.test.js make sure you import { render, screen } from '@testing-library/react'
+1. **Yarn**:  
+    ```bash
+    yarn install
+    ```
+2. **React Router**:  
+    ```bash
+    yarn add react-router-dom
+    ```
+3. **React Testing Library**:  
+    ```bash
+    yarn add react-testing-library
+    ```
+4. **React-strap**:  
+    ```bash
+    yarn add react-strap
+    ```
+5. **Strap**:  
+    ```bash
+    yarn add strap
+    ```
+6. **Bootstrap**:  
+    ```bash
+    yarn add bootstrap
+    ```
+7. **Jest (Testing)**:  
+    ```bash
+    yarn add jest
+    ```
+8. **Animate.css**:  
+    ```bash
+    yarn add animate.css
+    ```
 
- <BrowserRouter>
-    <App />
- </BrowserRouter>
+---
 
- 3.  Add react testing library
-
- yarn add react-testing-library
-
- import { render } from '@testing-library/react' in testing files
-
- 4.  Add react-strap
-
- yarn add react-strap
-
- 5.  Add strap
-
- yarn add strap
-
- 6.  Add bootstrap
-
- yarn add bootsrap
-
- Add testing suites
-
- 7.  Add jest
-
- yarn add jest
-
- 8.  Add Animate CSS
- 
- yarn add animate.css
-
- import 'animate.css' 
- 
- 9.  Render - Only a 3 month life cycle  
-
-
-Backend
-
-1. Add dependencies
-
-bundle
-
-2. rails db:create
-
-3. rails db:migrate
-
-4. rails sprec rspec 
-
-5. Render - Only 3 month life cycle
-
-
-
-Contributers include the RST team:
-
-Project Manager: Ramagel Romo
-
-Product Manager: Scott Tuschl 
-
-Tech Lead: Sarah Cherry
-
-Design Lead: Surielis Rodriguez Robles
-
-
-
+## Contributors 🤝
+- **Project Manager**: Ramagel Romo
+- **Product Manager**: Scott Tuschl (Hey, that's you!)
+- **Tech Lead**: Sarah Cherry
+- **Design Lead**: Surielis Rodriguez Robles
