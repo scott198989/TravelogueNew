@@ -1,0 +1,45 @@
+.home {
+    display:flex;
+}
+
+.header__home {
+    margin-left: 8dvw;
+    margin-top: 20dvh;
+}
+
+.title__home {
+    font-size: clamp(50px, 50dvh, 120px);
+    color:white;
+}
+
+.mission__home {
+    color:white;
+    font-size: clamp(20px, 8dvh, 40px);
+}
+
+.move-image__home {
+    animation: moveImage 30s linear infinite;
+    height: clamp(200px, 50dvw, 600px);
+    margin-top: 12dvh;
+    margin-right: 15dvw;
+    margin-bottom: 7dvh;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(30%) translateY(-20%);
+    }
+    50% {
+        transform: translateX(0) translateY(0);
+    }
+    75% {
+        transform: translateX(30%) translateY(-20%);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+ 

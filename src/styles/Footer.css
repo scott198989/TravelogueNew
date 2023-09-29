@@ -1,0 +1,19 @@
+.footer {
+    transform: translateX(-50%);
+    font-size: 20px;
+    background-color: "";
+    color: white;
+}
+
+.toggler-icon__footer {
+    background-color: var(--trans-indigo);
+    color: white;
+    
+}
+
+.toggler-items__footer {
+    color: white;
+    background-color: var(--trans-indigo);
+    width:fit-content;
+    border-radius: 2dvw;
+}

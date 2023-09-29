@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+:root {
+    --indigo: #5e17eb;
+    --purple: #8c52ff;
+    --lt-purple: #dacbf8;
+    --orange: #ff914d;
+    --teal: #12a7bb;
+    --red: #a63a3a;
+    --white: #ffff;
+    --trans-indigo: #5e17ebbd;
+    --trans-orange: #ff914d40;
+    --trans-green: #5fff4d91;
+    --trans-white: #ffffff9f;
+}
+
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pathway Gothic One';
+    font-size: 18px;
+}
+
+.app {
+    background: linear-gradient(90deg, var(--purple), var(--orange));
+    min-height: 100vh;
+    font-family: 'Pathway Gothic One';
+    font-size: 18px;
+}
+
+.gradient-background {
+background: linear-gradient(90deg, var(--teal), var(--purple), var(--red), var(--orange), var(--teal));
+background-size: 600dvh 600dvh;
+animation: gradientAnimation 40s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}

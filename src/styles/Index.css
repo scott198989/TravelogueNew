@@ -1,0 +1,37 @@
+.cards__index {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.cards__index:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.cards__index:hover .card-img__index {
+    opacity:   100%;
+}
+
+.card-img__index {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 80%;
+}
+
+.btn-details__index {
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    padding: 8px 16px;
+    transition: transform 0.3s ease;
+}
+
+.btn-details__index:hover {
+    transform: translateY(-2px);
+    background-color: var(--indigo);
+    color: var(--white);
+}
+
+

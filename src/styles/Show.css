@@ -1,0 +1,18 @@
+.image__show {
+    width: clamp(200px, 80dvw, 800px);
+    object-fit: contain;
+}
+
+.btn-details-back__show {
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    padding: 8px 16px;
+    transition: transform 0.3s ease;
+}
+
+.btn-details-back__show:hover {
+    transform: translateY(-2px);
+    background-color: var(--indigo);
+    color: var(--white);
+}

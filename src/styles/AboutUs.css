@@ -1,0 +1,23 @@
+.header__about-us {
+    padding: 4dvh;
+    text-align: center;
+    background-color: var(--trans-orange);
+    color: white;
+}
+
+.card__about-us {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.para__about-us {
+    width: auto;
+    margin-left: 30dvw;
+    margin-right: 30dvw;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}

@@ -1,0 +1,27 @@
+.btn-details__edit--edit {
+    background-color: var(--indigo);
+    color: var(--white);
+    border: none;
+    padding: 8px 16px;
+    transition: transform 0.3s ease;
+}
+
+.btn-details__edit--edit:hover {
+    transform: translateY(-2px);
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.btn-details__edit--delete {
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    padding: 8px 16px;
+    transition: transform 0.3s ease;
+}
+
+.btn-details__edit--delete:hover {
+    transform: translateY(-2px);
+    background-color: var(--red);
+    color: var(--white);
+}
